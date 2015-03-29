@@ -1,5 +1,7 @@
 # Introduction to Android Wear - Courseware
 
+![](http://ecx.images-amazon.com/images/I/51pCIcyLYyL._SX258_BO1,204,203,200_.jpg)
+
 ## Who
 
 David Cuartielles and Andreas Goransson work at different companies at the Malmo Incubator (MINC) and have written the book Professional Android Wearables for Wiley's Wrox series.

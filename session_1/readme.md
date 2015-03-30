@@ -16,10 +16,8 @@ You need to bring Android Studio installed from home, get it [here](https://deve
 1. Launch the .exe file you just downloaded.
 2. Follow the setup wizard to install Android Studio and any necessary SDK tools.
 
-```
-On some Windows systems, the launcher script does not find where Java is installed. If you encounter this problem, you need to set an environment variable indicating the correct location.
-Select Start menu > Computer > System Properties > Advanced System Properties. Then open Advanced tab > Environment Variables and add a new system variable JAVA_HOME that points to your JDK folder, for example C:\Program Files\Java\jdk1.7.0_21.
-```
+> On some Windows systems, the launcher script does not find where Java is installed. If you encounter this problem, you need to set an environment variable indicating the correct location.
+> Select Start menu > Computer > System Properties > Advanced System Properties. Then open Advanced tab > Environment Variables and add a new system variable JAVA_HOME that points to your JDK folder, for example C:\Program Files\Java\jdk1.7.0_21.
 
 ### Mac OS
 
@@ -27,9 +25,7 @@ Select Start menu > Computer > System Properties > Advanced System Properties. T
 2. Drag and drop Android Studio into the Applications folder.
 3. Open Android Studio and follow the setup wizard to install any necessary SDK tools.
 
-```
-Depending on your security settings, when you attempt to open Android Studio, you might see a warning that says the package is damaged and should be moved to the trash. If this happens, go to System Preferences > Security & Privacy and under Allow applications downloaded from, select Anywhere. Then open Android Studio again.
-```
+> Depending on your security settings, when you attempt to open Android Studio, you might see a warning that says the package is damaged and should be moved to the trash. If this happens, go to System Preferences > Security & Privacy and under Allow applications downloaded from, select Anywhere. Then open Android Studio again.
 
 ### Linux
 
@@ -37,9 +33,7 @@ Depending on your security settings, when you attempt to open Android Studio, yo
 2. To launch Android Studio, navigate to the `android-studio/bin/` directory in a terminal and execute `studio.sh`.
 3. If the SDK is not already installed, follow the setup wizard to install the SDK and any necessary SDK tools.
 
-```
-Note: You may also need to install the ia32-libs, lib32ncurses5-dev, and lib32stdc++6 packages. These packages are required to support 32-bit apps on a 64-bit machine.
-```
+> Note: You may also need to install the ia32-libs, lib32ncurses5-dev, and lib32stdc++6 packages. These packages are required to support 32-bit apps on a 64-bit machine.
 
 ## Adding Android SDK's
 

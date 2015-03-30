@@ -2,11 +2,14 @@
 
 ## Agenda
 
-...
+* People introductions: who are you?!?
+* Kind introduction to Android Wear: what is it?!?
+* Revising your setup, is Android Studio properly installed?
+* Make your first Android Wear App and run it on an emulator
 
 ## Preparations
 
-[Download](https://developer.android.com/sdk/index.html) Android Studio
+You need to bring Android Studio installed from home, get it [here](https://developer.android.com/sdk/index.html). It is a little different for each operating system.
 
 ### Windows
 

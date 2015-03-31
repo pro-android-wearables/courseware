@@ -1,5 +1,11 @@
 # session_1
 
+## Are There Slides?
+
+Yes we have slides!!
+
+[HERE on GDocs] (https://docs.google.com/presentation/d/1eT6zzQF7ObETz2T2lCAi985uCiwjhLf1bXaYh3VamfA/edit?usp=sharing)
+
 ## Agenda
 
 * People introductions: who are you?!?

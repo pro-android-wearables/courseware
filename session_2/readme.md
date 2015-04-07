@@ -53,6 +53,10 @@ You can make the emulator talk to your mobile device. For achieving that you nee
 * from the folder where you can find your adb.exe (Win) or adb (Lin/Mac) executable, run: ```adb devices```. That will list all of the devices connected to your computer. You should see both emulated and real devices
 * execute ```adb -s <your phone ID here> forward tcp:5601 tcp:5601```
 
+#### What Doesn't Work And a Way Around it
+
+Unfortunately, the emulator cannot capture voice commands, since there is no connection between the emulator and your computer's microphone. As an alternative, you can type in a text. When you get the notification, double click on the icon on the screen and the voice input window will show up. Type in whatever you want to send back and press enter ... the rest is magic.
+
 ### Intents or How we Send Stuff From A to B
 
 In order to send things from one part to another in the Android world, we use Intents. They are the hooks in the software that allow programs to connect to parts of other programs. For example, if you have both the Twitter app and the Chrome browser installed, when you click on a Twitter link that someone sent you in an email, your phone will detect that both applications have Intents to capture an event related to open a URL on the Twitter server. The OS will then display a dialog letting the user decide which application should respond to that data.
@@ -77,6 +81,8 @@ These APIs are responsible of handling the communication between the mobile phon
 This example shows an application for a mobile that will just send a notification to your wearable device and let you answer via voice. You can see the answers in the logs. The result will NOT be visible on the phone's UI. You should see something like this when you filter the log with the term "wrox" for the phone:
 
 ![Logcat] (images/ex0201.png "Logcat")
+
+You can see the message "hola" that was introduced in the wearable device.
 
 ### Code Example 3: Simple Notification With UI Response
 

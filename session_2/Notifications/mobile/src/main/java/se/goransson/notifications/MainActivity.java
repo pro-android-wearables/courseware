@@ -23,11 +23,11 @@ public class MainActivity extends Activity {
 
     notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
-//    showNotification(1, "basic", getBasicNotification(null));
-//    showNotification(2, "bigpic", getBigPictureNotification(null));
-//    showNotification(3, "pages", getPagesNotification(null));
-    showNotification(4, "action", getActionableNotification(null));
-//    showNotification(5, "actions", getMultiActionableNotification(null));
+    showNotification(1, "basic", getBasicNotification("myStack"));
+//    showNotification(2, "bigpic", getBigPictureNotification("myStack"));
+//    showNotification(3, "pages", getPagesNotification("myStack2"));
+//    showNotification(4, "action", getActionableNotification(null));
+//    showNotification(5, "actions", getMultiActionableNotification("myStack2"));
   }
 
   /**
@@ -136,6 +136,7 @@ public class MainActivity extends Activity {
         .setContentTitle(title)
         .setContentText(text)
         .setContentIntent(pendingIntent)
+        .setGroup(stack)
         .build();
   }
 
@@ -172,6 +173,7 @@ public class MainActivity extends Activity {
         .setContentTitle(title)
         .setContentText(text)
         .extend(wearableExtender)
+        .setGroup(stack)
         .build();
   }
 }

@@ -74,7 +74,9 @@ These APIs are responsible of handling the communication between the mobile phon
 
 ### Code Example 2: Simple Notification
 
-This example shows an application for a mobile that will just send a notification to your wearable device and let you answer via voice. You can see the answers in the logs.
+This example shows an application for a mobile that will just send a notification to your wearable device and let you answer via voice. You can see the answers in the logs. The result will NOT be visible on the phone's UI. You should see something like this when you filter the log with the term "wrox" for the phone:
+
+![Logcat] (images/ex0201.png "Logcat")
 
 ### Code Example 3: Simple Notification With UI Response
 

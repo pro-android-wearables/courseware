@@ -50,8 +50,8 @@ This is something that -don't be surprised- comes by default with your Smartwatc
 You can make the emulator talk to your mobile device. For achieving that you need to tell the Android Debug Bridge (adb - which is the software responsible of uploading code to your devices, gathering information to show it on the log window, etc) to link a certain tcp port in the emulator to a port in the mobile device. That is fairly simple. You can achieve it in a three steps process:
 
 * make sure you have booted the emulator for our wearable and that your phone is connected to the computer via the USB cable or alternative debugging method
-* from the folder where you can find your adb.exe (Win) or adb (Lin/Mac) executable, run: '''adb devices'''. That will list all of the devices connected to your computer. You should see both emulated and real devices
-* execute '''adb -s <your phone ID here> forward tcp:5601 tcp:5601'''
+* from the folder where you can find your adb.exe (Win) or adb (Lin/Mac) executable, run: ```adb devices```. That will list all of the devices connected to your computer. You should see both emulated and real devices
+* execute ```adb -s <your phone ID here> forward tcp:5601 tcp:5601```
 
 ### Intents or How we Send Stuff From A to B
 

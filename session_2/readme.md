@@ -12,7 +12,7 @@ Just to make things simpler for you, we created all of the examples as Android p
 
 As you might not have a Smartwatch, we have prepared the session for you to run the examples between a real mobile phone and an emulated watch. All of the examples will work also between a phone and a real watch.
 
-Andreas does, as a matter of fact, recommend using either WiFi or BT debugging instead of the USB cable with your phone. Everything explained here should also work for that scenario.
+Andreas does, as a matter of fact, recommend using either WiFi or BT debugging instead of the USB cable with your phone. Everything explained here should also work for that scenario. Check [this page] (http://developer.android.com/tools/help/adb.html#wireless) for more information on how to configure the wireless debugging.
 
 ## Notifications
 

@@ -43,4 +43,8 @@ Nope, this time we had a live coding session, so there were no slides. However w
 * just to make a test on the detector, we add a log to see how the sensor is fired
 * add an onDestroy method to unregister the listeners when the application closes
 * in order to keep track of the daily step counting, we will add a goal as a constant (GOAL) at the beginning of the program and a counter (steps) to increment the amount of steps. This second variable has to be defined as a float, because the set-progress is taking a value between 0 and 1
-* this whole example is built around the detector and not the counter, in order to look at the proper count of the steps
+* this first half example is built around the detector and not the counter, in order to look at the progress of the step counter
+* the second half of the example is going to look at the step counter in order to show the value on the screen
+* the listener will look at an event that will be returning an array with different values depending on the type of sensor you have. The first position in the array will give you the step counter
+* then we just add this to the view et-voila ... our FIT clone is done!
+* Note: in your production apps you might not want to have update values for your listeners at "0", as that might be draining batteries
